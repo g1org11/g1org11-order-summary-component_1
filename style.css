@@ -11,4 +11,136 @@ body {
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  height: 697px;
+  width: 450px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.order-img {
+  margin-bottom: 45px;
+}
+.order-img img {
+  height: 220px;
+  width: 450px;
+  border-radius: 20px 20px 0px 0px;
+}
+.order-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.order-info h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1f2e55;
+  margin-bottom: 17px;
+}
+.order-info p {
+  width: 354px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+}
+.annual-Plan {
+  width: 354px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #f7f9ff;
+  margin-bottom: 32px;
+}
+.anual-plan-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anual-img {
+  margin-right: 20px;
+}
+.anual-info h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+.anual-info p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+  margin-top: 6px;
+}
+.anual-plan-right a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+.anual-plan-right a:hover {
+  color: #766cf1;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.payment-button {
+  width: 354px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+.payment-button:hover {
+  background-color: #766cf1;
+  transition: 0.3s;
+}
+
+.cancel {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.cancel-order {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  text-align: center;
+}
+.cancel-order {
+  color: #717fa6;
+  transition: 0.3;
 }

@@ -1,0 +1,53 @@
+@media screen and (max-width: 769px) {
+  .conteiner {
+    height: 567px;
+    width: 327px;
+  }
+  .order-img {
+    margin-bottom: 32px;
+  }
+  .order-img img {
+    margin: 0 auto;
+    display: block;
+    height: 160px;
+    width: 327px;
+  }
+  .order-info h2 {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+  .order-info p {
+    width: 263px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .payment-button .cancel-order {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .annual-Plan {
+    height: 81px;
+    width: 279px;
+    margin-bottom: 24px;
+  }
+  .anual-info h4 .anual-info p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .anual-info p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .anual-plan-right a {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .payment-button {
+    height: 50px;
+    width: 279px;
+  }
+  .cancel {
+    margin-top: 24px;
+  }
+}
